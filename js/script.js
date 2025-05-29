@@ -50,6 +50,7 @@ const handleFormCelsiusToFahrenheit = () => {
         return
     }
     
+    
     // Validasi maksimal 5 karakter
     if(celsius.length > 5) {
         document.getElementById('error-message-celsius').textContent = "Maksimal input 5 karakter"
